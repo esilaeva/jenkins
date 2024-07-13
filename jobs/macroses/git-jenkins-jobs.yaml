@@ -1,0 +1,11 @@
+---
+
+- scm:
+    name: 'git-tests'
+    scm:
+      - git:
+          url: https://github.com/esilaeva/otus_homework
+          credentials-id: jenkins
+          branches:
+            - FETCH_HEAD
+          refspec: $BRANCH
