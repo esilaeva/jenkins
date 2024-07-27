@@ -1,3 +1,5 @@
+import ./utils.groovy
+
 pipeline {
     agent {
         label 'maven-cloud'
